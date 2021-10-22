@@ -1,5 +1,7 @@
 
 <template>
+<VideoBackground>
+
 
 </template>
 
@@ -11,10 +13,12 @@ Vue.component('video-background', VideoBackground);
 
 
 export default {
-  //TODO
-  name: 'VideoBackground',
+  /*
+  export default is used to make our prop exportable
+  */
+  name: 'SiteHeader',
   props: {
-    msg: String
+    video_background: VideoBackground
   }
 
 </script>
