@@ -1,15 +1,21 @@
 <template>
   <img alt="Vue logo" src="../../assets/logo.png">
-  <HelloWorld msg="MMA Website in Progress"/>
+  <SiteHeader 
+  src="/home/ahoque245/Projects/websites/mma_website/src/assets/teleport.mp4/"
+  @ready="video-player.playVideo()"
+  />
+  <hello-world msg="MMA Website in Progress"/>
 </template>
 
 <script>
 import HelloWorld from '../../components/HelloWorld.vue'
+import SiteHeader from '../../components/SiteHeader.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    SiteHeader,
   }
 }
 </script>
