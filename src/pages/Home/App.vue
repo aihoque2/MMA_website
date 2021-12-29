@@ -16,7 +16,8 @@ export default {
   components: {
     HelloWorld,
     SiteHeader,
-  }
+  },
+  
 }
 </script>
 
