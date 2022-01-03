@@ -1,7 +1,7 @@
 <template>
   <img alt="Vue logo" src="../../assets/logo.png">
   <SiteHeader 
-  src="/home/ahoque245/Projects/websites/mma_website/src/assets/teleport.mp4/"
+  src="../../assets/teleport.mp4"
   @ready="video-player.playVideo()"
   />
   <hello-world msg="MMA Website in Progress"/>

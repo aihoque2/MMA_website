@@ -2,8 +2,9 @@
 <template>
 <video-background
 :src="src"
-style="max-height: 400px; height: 100vh;"
+style="max-height: 500px; height: 100vh;"
 >
+  <h1>Welcome to the Website!</h1>
   
 </video-background>
 
