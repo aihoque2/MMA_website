@@ -1,21 +1,31 @@
 <template>
   <img alt="Vue logo" src="../../assets/logo.png">
+  <!--
   <SiteHeader 
   src="../../assets/teleport.mp4"
   @ready="video-player.playVideo()"
   />
+  -->
+  <VideoBackground
+  src="../../assets/teleport.mp4"
+  style="max-height: 400px; height: 100vh;"
+  >
+    <h1 style="color: Black;">VIDEO BACKGROUND!</h1>
+  </VideoBackground>
   <hello-world msg="MMA Website in Progress"/>
 </template>
 
 <script>
 import HelloWorld from '../../components/HelloWorld.vue'
-import SiteHeader from '../../components/SiteHeader.vue'
+//import SiteHeader from '../../components/SiteHeader.vue'
+import VideoBackground from 'vue-responsive-video-background-player'
+
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    SiteHeader,
+    VideoBackground,
   },
   
 }
