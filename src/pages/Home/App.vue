@@ -1,3 +1,5 @@
+TODO: Start with some sabe.io tutorials
+
 <template>
   <img alt="Vue logo" src="../../assets/logo.png">
   <!--
@@ -9,6 +11,7 @@
   <VideoBackground
   src="../../assets/teleport.mp4"
   style="max-height: 400px; height: 100vh;"
+  @onclick=playVideo
   >
     <h1 style="color: Black;">VIDEO BACKGROUND!</h1>
   </VideoBackground>
