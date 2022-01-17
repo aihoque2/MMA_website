@@ -27,6 +27,14 @@ style="max-height: 500px; height: 100vh;"
     },
     props: {
       src: String
-    }
+    },
+
+    data(): =>({
+      src: String
+    }},
+
+    mounted(){},
+    
+    methods{}
   }
 </script>
