@@ -29,6 +29,11 @@ style="max-height: 500px; height: 100vh;"
       src: String
     },
 
+    //what to do when this is mounted in DOM
+    mounted(){
+      this.VideoBackground.PlayVideo=true;
+    },
+
     data(): =>({
       src: String
     }},

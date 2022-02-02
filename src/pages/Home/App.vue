@@ -8,6 +8,8 @@ TODO: Start with some sabe.io tutorials
   @ready="video-player.playVideo()"
   />
   -->
+  <h1>THIS IS THE HOME PAGE!</h1>
+
   <VideoBackground
   src="../../assets/teleport.mp4"
   style="max-height: 400px; height: 100vh;"
@@ -16,6 +18,7 @@ TODO: Start with some sabe.io tutorials
     <h1 style="color: Black;">VIDEO BACKGROUND!</h1>
   </VideoBackground>
   <hello-world msg="MMA Website in Progress"/>
+  
 </template>
 
 <script>
@@ -23,12 +26,11 @@ import HelloWorld from '../../components/HelloWorld.vue'
 //import SiteHeader from '../../components/SiteHeader.vue'
 import VideoBackground from 'vue-responsive-video-background-player'
 
-
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    VideoBackground,
+    VideoBackground
   },
   
 }
