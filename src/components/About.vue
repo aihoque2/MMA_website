@@ -8,8 +8,8 @@
 </template>
 
 <script>
-import HelloWorld from '../../components/HelloWorld.vue'
-import StaticPosts from '../../components/StaticPosts.vue'
+import HelloWorld from 'components/HelloWorld.vue'
+import StaticPosts from 'components/StaticPosts.vue'
 
 export default {
   name: 'App',
