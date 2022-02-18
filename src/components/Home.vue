@@ -8,15 +8,16 @@
 </template>
 
 <script>
-import HelloWorld from 'components/HelloWorld.vue'
-import StaticPosts from 'components/StaticPosts.vue'
+import HelloWorld from '../components/HelloWorld.vue'
+import StaticPosts from '../components/StaticPosts.vue'
 
 export default {
-  name: 'About',
+  name: 'Home',
   components: {
     HelloWorld,
     StaticPosts
   }
+
 }
 </script>
 

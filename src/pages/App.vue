@@ -2,12 +2,9 @@ TODO: Start with some sabe.io tutorials
 
 <template>
   <img alt="Vue logo" src="../../assets/logo.png">
-  <!--
-  <SiteHeader 
-  src="../../assets/teleport.mp4"
-  @ready="video-player.playVideo()"
-  />
-  -->
+  <a href="#/">Home</a> |
+  <a href="#/about">About</a> |
+  <a href="#/non-existent-path">Broken Link</a>
   <h1>THIS IS THE HOME PAGE!</h1>
 
   <VideoBackground
@@ -25,14 +22,18 @@ TODO: Start with some sabe.io tutorials
 import HelloWorld from '../../components/HelloWorld.vue'
 //import SiteHeader from '../../components/SiteHeader.vue'
 import VideoBackground from 'vue-responsive-video-background-player'
+import Home from '../../components/Home.vue'
+import About from '../../components/About.vue'
+
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    VideoBackground
+    VideoBackground,
+    //SiteHeader,
   },
-  
+
 }
 </script>
 
