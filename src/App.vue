@@ -22,13 +22,15 @@ TODO: Start with some sabe.io tutorials
 import HelloWorld from '../../components/HelloWorld.vue'
 //import SiteHeader from '../../components/SiteHeader.vue'
 import VideoBackground from 'vue-responsive-video-background-player'
-import Home from '../../components/Home.vue'
-import About from '../../components/About.vue'
+import Home from '../../views/Home.vue'
+import About from '../../views/About.vue'
 
 
 export default {
   name: 'App',
   components: {
+    Home,
+    About,
     HelloWorld,
     VideoBackground,
     //SiteHeader,
